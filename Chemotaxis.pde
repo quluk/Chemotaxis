@@ -16,10 +16,10 @@ Bacteria [] backtoback= new Bacteria[30];
  {    
       background(0,100,500);
   back=new Bacteria(250,250,100);
-  back.move();
+  //back.move();
   back.show();
   for(int i=0;i<backtoback.length;i++){
-    backtoback[i].move();
+    //backtoback[i].move();
     backtoback[i].show();
   }
   }
