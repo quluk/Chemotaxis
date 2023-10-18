@@ -33,10 +33,9 @@ Bacteria [] backtoback= new Bacteria[30];
      colour=mcolour;
    }
    void move(){
-       x=x+(int)(Math.random()*6)-3;
-       y=y+(int)(Math.random()*6)-3;
+       x=x;
+       y=y;
        System.out.println(x+y);
-       this.show();
    }
    void show(){
      fill(0,0,0);
