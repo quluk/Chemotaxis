@@ -2,13 +2,15 @@ Bacteria back;
 Bacteria [] backtoback= new Bacteria[30];
  void setup()   
  {     
-
-   size(500,500);
      int n= (int)(Math.random()*500);
   int t= (int)(Math.random()*500);
   for(int i=0;i<backtoback.length;i++){
     backtoback[i]= new Bacteria (250,250,100);
   }
+  background(0,150,50);
+  size(1000,1000);
+  textAlign(CENTER,CENTER);
+  noLoop();
  }   
  void draw()   
  {    
