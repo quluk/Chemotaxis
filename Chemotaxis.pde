@@ -1,7 +1,9 @@
 Bacteria back;
-Bacteria [] backtoback= new Bacteria[30];
+Bacteria [] backtoback;
  void setup()   
  {     
+backtoback= new Bacteria[30];
+back=new Bacteria(250,250,100);
      int n= (int)(Math.random()*500);
   int t= (int)(Math.random()*500);
   for(int i=0;i<backtoback.length;i++){
@@ -15,7 +17,7 @@ Bacteria [] backtoback= new Bacteria[30];
  void draw()   
  {    
       background(0,100,500);
-  back=new Bacteria(250,250,100);
+  
   back.move();
   back.show();
   for(int i=0;i<backtoback.length;i++){
