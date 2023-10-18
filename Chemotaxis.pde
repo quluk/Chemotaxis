@@ -10,7 +10,7 @@ Bacteria [] backtoback= new Bacteria[30];
   background(0,150,50);
   size(1000,1000);
   textAlign(CENTER,CENTER);
-  noLoop();
+
  }   
  void draw()   
  {    
