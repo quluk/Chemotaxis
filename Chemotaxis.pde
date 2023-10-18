@@ -39,7 +39,7 @@ Bacteria [] backtoback= new Bacteria[30];
    }
    void show(){
      fill(0,0,0);
-     ellipse(x,y,7,7);
+     ellipse(x,y,70,7);
      ellipse(x+10,y,13,3);
      ellipse(x-10,y,13,3);
    }
